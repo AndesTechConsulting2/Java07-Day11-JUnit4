@@ -10,7 +10,7 @@
 # классы c JUnitCore: AppRunner
 # класс для группировки тестов:  IRegressTest
 
-
+##################################################################################################
 # maven запуск тестов 
 
 # очистка, перекомпиляция и запуск тестов всех классов начинающихся на AppTest
@@ -25,7 +25,7 @@ mvn test -Dtest=AppTest#meth01Test,AppTest2#meth06Test
 # запуск тестов, аннотированных @Category({IRegressTest.class}) в классах AppTest,AppTest2
 mvn test -Dtest=AppTest* -Dgroups=IRegressTest
 
-
+##################################################################################################
 #java запуск тестов 
 
 C:\Users\and\IdeaProjectG2\Java07Day11JUnit>java -cp target\Java07Day11JUnit-1.0-SNAPSHOT-tests.jar;
